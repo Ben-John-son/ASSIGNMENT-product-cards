@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Cards</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <div class="row">
+          <div class="column">
+            <img
+              src="data:image/jpeg;base64,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"
+              card-img-top
+              alt="..."
+            />
+            <div class="card-body">
+              <h2 class="card-title">Gibson Hummingbird</h2>
+              <p class="card-text">
+                A beautiful dreadnought acoustic guitar from Gibson with
+                fabulous sumburst body and accented pick guard.
+              </p>
+              <p class="status-a">Available</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Specifications:
+                <ul>
+                  Material-Rosewood, Spruce
+                </ul>
+                <ul>
+                  Frets-20
+                </ul>
+                <ul>
+                  Scale Length-24.75"
+                </ul>
+                <p>Product specifications become invalid upon destruction</p>
+              </li>
+              <li class="list-group-item">
+                <ul>
+                  Price-$2000
+                </ul>
+                <ul>
+                  Buy 2-$1800 each
+                </ul>
+                <ul>
+                  Buy 3 or more-$1500 each
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <div class="column">
+          <img
+            id="loar"
+            src="data:image/jpeg;base64,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"
+            card-img-top
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Loar LH-700</h2>
+            <p class="card-text">
+              Impeccable acoustic archtop guitar from Loar. Truly a thing of
+              beauty. Comes with hardshell case that will be perfect for
+              transport to any gig.
+            </p>
+            <p class="status-a">Available-Limited Amount</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Specifications:
+              <ul>
+                Material-Flamed Maple, Spruce
+              </ul>
+              <ul>
+                Frets-19
+              </ul>
+              <ul>
+                Scale Length-24.75"
+              </ul>
+              <p>Product specifications become invalid upon destruction</p>
+            </li>
+            <li class="list-group-item">
+              <ul>
+                Price-$1000
+              </ul>
+              <ul>
+                Buy 2-$800 each
+              </ul>
+              <ul>
+                Buy 3 or more-$650 each
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="column">
+          <img
+            id="martin"
+            src="data:image/jpeg;base64,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"
+            card-img-top
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Martin HD-28</h2>
+            <p class="card-text">
+              Truly an iconic guitar from Martin. With a look and tone so clean
+              and warm, it's guaranteed to melt even the coldest hearts.
+            </p>
+            <p class="status-a">Available</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Specifications:
+              <ul>
+                Material-East Indian Rosewood, Spruce
+              </ul>
+              <ul>
+                Frets-20
+              </ul>
+              <ul>
+                Scale Length-25.4"
+              </ul>
+              <p>Product specifications become invalid upon destruction</p>
+            </li>
+            <li class="list-group-item">
+              <ul>
+                Price-$2000
+              </ul>
+              <ul>
+                Buy 2-$1800 each
+              </ul>
+              <ul>
+                Buy 3 or more-$1500 each
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="column1">
+          <img
+            id="recordingking"
+            src="https://media.rainpos.com/7402/rps_7_e_ts_side.png"
+            card-img-top
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Recording King RPS-7-E-TS</h2>
+            <p class="card-text">
+              An acoustic offering from Recording King in their "Dirty 30's"
+              product line. Vintage style mixes with modern innovation and sound
+              in this parlor size guitar.
+            </p>
+            <p class="status-a">Available</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Specifications:
+              <ul>
+                Material-Spruce, Whitewood
+              </ul>
+              <ul>
+                Frets-20
+              </ul>
+              <ul>
+                Scale Length-25.4"
+              </ul>
+              <p>Product specifications become invalid upon destruction</p>
+            </li>
+            <li class="list-group-item">
+              <ul>
+                Price-$300
+              </ul>
+              <ul>
+                Buy 2-$275each
+              </ul>
+              <ul>
+                Buy 3 or more-$225 each
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- container div above this line -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!-- body above -->
+</html>
+<!--breaker comment -->
