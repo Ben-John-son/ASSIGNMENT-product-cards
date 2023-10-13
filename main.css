@@ -1,0 +1,67 @@
+.status-a {
+  background-color: bisque;
+  color: red;
+}
+
+h2 {
+  border: blue;
+  size: 4px solid;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  text-align: center;
+}
+.card-title {
+  border: lightblue 1px solid;
+  padding: 3px;
+}
+.container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  border: black 2px solid;
+  flex-basis: 28%;
+  justify-items: flex-start;
+}
+
+#loar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  text-align: right;
+}
+#martin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  text-align: right;
+}
+.column1 {
+  justify-content: flex-start;
+}
+.list-group-flush {
+  border: black 1px solid;
+}
+.list-group-item {
+  border: black 1px solid;
+}
+.card-text {
+  padding: 5px;
+  border: black 1px solid;
+}
+#recordingking {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 115px;
+  text-align: right;
+}
