@@ -65,3 +65,26 @@ img {
   width: 115px;
   text-align: right;
 }
+
+.parenting {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.martinguitar {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.soldout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: calc(60%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
