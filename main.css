@@ -24,3 +24,9 @@ h2 {
   border: 2px solid black;
   text-align: center;
 }
+
+img {
+  width: 75%;
+  max-height:40%;
+  min-height: 40%;
+}
