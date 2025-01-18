@@ -52,15 +52,54 @@ img {
 }
 
 .available {
-  background-color: rgb(159, 177, 3);
+  background-color: darkgrey;
   margin: 0;
   width: 100%;
+  padding: 0px;
+  color: yellow;
 }
 
 .notAvailable{
-  background-color: red;
+  background-color: darkgray;
+  color: yellow;
 }
 
 .card-text {
 height: 10vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.specs {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.price {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#lFly {
+  z-index: 2;
+}
+
+#gone {
+  z-index: 3;
+  position: absolute;
+}
+
+#threeVert {
+  z-index: 4;
+}
+
+#not {
+  z-index: 5;
+  position: absolute;
 }
