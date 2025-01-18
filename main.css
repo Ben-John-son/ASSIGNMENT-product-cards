@@ -93,6 +93,10 @@ padding: 10px;
 #gone {
   z-index: 3;
   position: absolute;
+  width: 35%;
+  height: 15%;
+  right: 0;
+  bottom: 1;
 }
 
 #threeVert {
@@ -102,4 +106,9 @@ padding: 10px;
 #not {
   z-index: 5;
   position: absolute;
+  width: 35%;
+  height: 15%;
+  right: 0;
+  bottom: 1;
+  
 }
